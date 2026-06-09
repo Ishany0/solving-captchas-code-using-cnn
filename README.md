@@ -1,3 +1,17 @@
+Hey!
+This is me trying to skill up in ML.
+!!This is not fully my work!!
+this repo is copied from Adam Geitgey's article: https://medium.com/@ageitgey/how-to-break-a-captcha-system-in-15-minutes-with-machine-learning-dbebb035a710
+
+I am working the code up to capture more varied recent captchas, which apparently the code failed in some : attaching in my motivation file a few example.
+
+
+
+
+
+Adam Geitgey's readme:
+
+
 ### Before you get started
 
 To run these scripts, you need the following installed:
