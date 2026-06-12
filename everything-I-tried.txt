@@ -1,2 +1,2 @@
 1. change the dataset:    re-captchas nowadays take single letters from photos of real world instead of taking just different computer fonts.
-                      12 june 2026 : added the mnist handwritten dataset
+                      12 june 2026 : added the nist handwritten dataset "https://www.nist.gov/srd/nist-special-database-19" for alphabets 1-26
