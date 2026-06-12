@@ -1,1 +1,2 @@
-12 june 2026: 1. change the dataset:    re-captchas nowadays take single letters from photos of real world.
+1. change the dataset:    re-captchas nowadays take single letters from photos of real world instead of taking just different computer fonts.
+                      12 june 2026 : added the mnist handwritten dataset
