@@ -1,6 +1,9 @@
+12 june:
 1. change the dataset:    re-captchas nowadays take single letters from photos of real world instead of taking just different computer fonts.
                       : added the nist handwritten dataset "https://www.nist.gov/srd/nist-special-database-19" for alphabets 1-26
 
+
+14 june:
 2.accuracy too high? on accuracy for training/ evaluation i got the average accuracy=99.4467%, loss=0.04
       which is kind of weirdly high? 
       every possible issue i can think of is:
@@ -9,3 +12,8 @@
                                       3.
                                       4. since on deployment : only the very similar kind of captchas have a 100% accuracy
                                               otherwise its 0%  : overfitting??? 
+
+also did not merged a new dataset yet: could not find a similar format one: most are csv;
+possibilities:
+1. try same algo and model with new dataset       problem: idk how I will take this further
+2. make a dataset on your own                     problem: will take "worst case time" forever ig 
