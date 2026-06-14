@@ -78,8 +78,12 @@ model.add(Dense(32, activation="softmax"))
 # Ask Keras to build the TensorFlow model behind the scenes
 model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
 
+
 # Train the neural network
 model.fit(X_train, Y_train, validation_data=(X_test, Y_test), batch_size=32, epochs=10, verbose=1)
+
+loss, accuracy = model.evaluate(X_test, Y_test)
+print("Test loss: {:.4f}, accuracy: {:.4f}%".format(loss, accuracy * 100))
 
 # Save the trained model to disk
 model.save(MODEL_FILENAME)
