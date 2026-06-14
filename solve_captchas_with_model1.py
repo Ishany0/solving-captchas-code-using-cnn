@@ -18,7 +18,7 @@ with open(MODEL_LABELS_FILENAME, "rb") as f:
 
 # Load the trained neural network
 model = load_model(MODEL_FILENAME)
-'''
+
 # Grab some random CAPTCHA images to test against.
 # In the real world, you'd replace this section with code to grab a real
 # CAPTCHA image from a live website.
@@ -180,4 +180,4 @@ for image_file in captcha_image_files:
     # Show the annotated image
     cv2.imshow("Output", output)
     cv2.waitKey()
-    '''
+    
